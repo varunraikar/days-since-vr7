@@ -36,7 +36,7 @@ function displayEvent(event) {
     var diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
 
     var li = document.createElement("li");
-    li.textContent = diffDays + " days - " + event.name;
+    li.textContent = diffDays + " " + event.name;
     li.setAttribute('data-event-name', event.name);
     li.setAttribute('data-days', diffDays);
 
