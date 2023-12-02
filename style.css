@@ -1,17 +1,17 @@
 body {
     font-family: 'Futura', sans-serif;
-    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    background: linear-gradient(to right, #ffffff, #000000);
     margin: 0;
     padding: 0;
-    color: #333333;
+    color: #333;
 }
 
 header {
-    background-color: #a1c4fd
-    color: #ffffff
+    background-color: #000;
+    color: #fff;
     text-align: center;
     padding: 1rem;
-    border-bottom: 2px solid #ffffff
+    border-bottom: 2px solid #fff;
 }
 
 header h1 {
@@ -19,8 +19,8 @@ header h1 {
 }
 
 #addEventButton, #saveEventButton {
-    background-color: #a1c4fd
-    color: #ffffff
+    background-color: #000;
+    color: #fff;
     border: none;
     border-radius: 15px;
     padding: 0.5rem 1rem;
@@ -31,7 +31,7 @@ header h1 {
 }
 
 #addEventButton:hover, #saveEventButton:hover {
-    background-color: #333333;
+    background-color: #333;
 }
 
 #eventForm {
@@ -56,12 +56,12 @@ header h1 {
 }
 
 #eventList li {
-    background-color: #ffffff
-    color: #a1c4fd
+    background-color: #fff;
+    color: #000;
     margin: 0.5rem;
     padding: 0.5rem;
     border-radius: 10px;
-    border: 1px solid #a1c4fd
+    border: 1px solid #000;
     cursor: pointer;
     display: flex;
     justify-content: space-between;
@@ -76,10 +76,10 @@ header h1 {
 .dayBox {
     width: 20px;
     height: 20px;
-    border: 1px solid #a1c4fd
+    border: 1px solid #000;
     display: inline-block;
     margin: 2px;
-    background-color: #ffffff
+    background-color: #fff;
 }
 
 .filled {
@@ -98,20 +98,4 @@ header h1 {
 
 .deleteButton:hover {
     background-color: darkred;
-}
-
-@media only screen and (max-width: 600px) {
-    body {
-        font-size: 14px;
-    }
-    header h1 {
-        font-size: 24px;
-    }
-    button {
-        padding: 10px 20px;
-    }
-    input[type="text"], input[type="date"] {
-        width: 100%;
-        margin: 10px 0;
-    }
 }
